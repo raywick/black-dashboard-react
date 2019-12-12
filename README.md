@@ -191,4 +191,3 @@ Google+: <https://plus.google.com/+CreativetimPage>
 Instagram: <https://instagram.com/creativetimofficial>
 
 [![Run on Repl.it](https://repl.it/badge/github/raywick/black-dashboard-react)](https://repl.it/github/raywick/black-dashboard-react)
->>>>>>> master
