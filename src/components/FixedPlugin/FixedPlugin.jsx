@@ -57,13 +57,13 @@ class FixedPlugin extends Component {
               <div className="badge-colors text-center">
                 <span
                   className={
-                    this.props.bgColor === "primary"
-                      ? "badge filter badge-primary active"
-                      : "badge filter badge-primary"
+                    this.props.bgColor === "danger"
+                      ? "badge filter badge-danger active"
+                      : "badge filter badge-danger"
                   }
-                  data-color="primary"
+                  data-color="danger"
                   onClick={() => {
-                    this.props.handleBgClick("primary");
+                    this.props.handleBgClick("danger");
                   }}
                 />{" "}
                 <span
@@ -74,7 +74,7 @@ class FixedPlugin extends Component {
                   }
                   data-color="blue"
                   onClick={() => {
-                    this.props.handleBgClick("blue");
+                    this.props.handleBgClick("gray"); /*("blue");*/
                   }}
                 />{" "}
                 <span
@@ -102,7 +102,16 @@ class FixedPlugin extends Component {
               />{" "}
               <span className="color-label">DARK MODE</span>{" "}
             </li>
-            <li className="button-container">
+          </ul>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default FixedPlugin;
+
+/*<li className="button-container">
               <Button
                 href="https://www.creative-tim.com/product/black-dashboard-react"
                 color="primary"
@@ -132,12 +141,4 @@ class FixedPlugin extends Component {
               >
                 Get pro version
               </Button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    );
-  }
-}
-
-export default FixedPlugin;
+            </li>*/
