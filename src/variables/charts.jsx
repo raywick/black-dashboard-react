@@ -263,6 +263,7 @@ let chartExample3 = {
     gradientStroke.addColorStop(1, "rgba(233,241,31,0.15)");
     gradientStroke.addColorStop(0.4, "rgba(233,241,31,0.0)"); //yellow colors
     gradientStroke.addColorStop(0, "rgba(233,241,31,0)"); //yellow colors
+    
     return {
       labels: ["USA", "GER", "AUS", "UK", "RO", "BR"],
       datasets: [
