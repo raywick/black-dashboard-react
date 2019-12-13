@@ -260,10 +260,9 @@ let chartExample3 = {
 
     let gradientStroke = ctx.createLinearGradient(0, 230, 0, 50);
 
-    gradientStroke.addColorStop(1, "rgba(72,72,176,0.1)");
-    gradientStroke.addColorStop(0.4, "rgba(72,72,176,0.0)");
-    gradientStroke.addColorStop(0, "rgba(119,52,169,0)"); //purple colors
-
+    gradientStroke.addColorStop(1, "rgba(233,241,31,0.15)");
+    gradientStroke.addColorStop(0.4, "rgba(233,241,31,0.0)"); //yellow colors
+    gradientStroke.addColorStop(0, "rgba(233,241,31,0)"); //yellow colors
     return {
       labels: ["USA", "GER", "AUS", "UK", "RO", "BR"],
       datasets: [
@@ -272,7 +271,7 @@ let chartExample3 = {
           fill: true,
           backgroundColor: gradientStroke,
           hoverBackgroundColor: gradientStroke,
-          borderColor: "#d048b6",
+          borderColor: "#ced600",
           borderWidth: 2,
           borderDash: [],
           borderDashOffset: 0.0,
